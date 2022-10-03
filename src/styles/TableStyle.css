@@ -1,0 +1,22 @@
+.table{
+    margin-top: 20px;
+    overflow: scroll;
+    height: 400px;
+    color: #e69121;
+}
+
+/* allows our data to take full screen table */
+.table tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table td {
+    padding: 0.5rem;
+}
+
+/* every single table row with odd number
+go to it and set the background to gray  */
+.table tr:nth-of-type(odd) {
+    background-color: #f3f2f8
+}
